@@ -103,6 +103,60 @@ For higher levels, the same methodology is repeated:
    4. Analyze the results: Look for changes in response length to identify the correct payload
       ![Payload](images/Picture18.png)
 
+4. SQL injection
+
+````
+1' OR '1'='1'#
+'UNION SELECT user, password FROM users --
+'UNION SELECT user, password FROM users --
+'UNION SELECT table_name, NULL FROM information_schema.tables --
+````
+![Payload](images/Picture20.png)
+
+---
+
+### **Summary**
+**List of Identified Vulnerabilities**
+1. **SQL Injection**
+    - **Description:** Exploiting SQL queries by injecting malicious inputs to gain unauthorized access or manipulate the database.
+    - **Potential Impact:**
+        - Unauthorized access to sensitive data.
+        - Data corruption or deletion.
+        - Full database compromise.
+    - **Recommendations:**
+        - Input validation.
+        - Use parameterized queries or stored procedures.
+        - Restrict database user permissions.
+        - Avoid exposing detailed error messages.
+
+2. **Cross-Site Scripting (XSS)**
+    - **Description:** Injecting malicious scripts into web pages to affect users.
+    - **Potential Impact:**
+        - Session cookie theft.
+        - Web page defacement.
+        - Malware spread.
+        - Loss of trust.
+    - **Recommendations:**
+        - Sanitize inputs.
+        - Implement a Content Security Policy (CSP).
+        - Encode user inputs.
+        - Use HTTPOnly and Secure flags for cookies.
+
+3. **Brute Force Attacks**
+    - **Description:** Systematic attempts to guess user credentials.
+    - **Potential Impact:**
+        - Unauthorized account access.
+        - Exploitation of user privileges.
+        - Account lockouts.
+    - **Recommendations:**
+        - Account lockout mechanisms.
+        - Implement CAPTCHAs.
+        - Enforce strong password policies.
+        - Use multi-factor authentication (MFA).
+        - Monitor failed login attempts.
+
+---
+
 <!-- FEATURES -->
 
 ## Features
