@@ -35,7 +35,7 @@
 
 <!-- FEATURES -->
 
-## Features
+### Features
 
 - **Secure** trust me bro
 
