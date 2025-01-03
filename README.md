@@ -1,6 +1,6 @@
 <div id="top"></div>  
 
-<h2 align="center">Advanced Programming Project</h2>  
+<h2 align="center">Software Security Project</h2>  
 <h3 align="center">Ahmed Walid</h3>  
 <h3 align="center">Ahmed Mohamed</h3>  
 <h3 align="center">AlSayed Aly</h3>  
