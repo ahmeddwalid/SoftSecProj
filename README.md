@@ -39,9 +39,6 @@
 
 - **Secure** trust me bro
 
-
----
-
 ### Part 1:
 
 Very Secure Java Project
