@@ -112,6 +112,8 @@ For higher levels, the same methodology is repeated:
 'UNION SELECT table_name, NULL FROM information_schema.tables --
 ````
 ![Payload](images/Picture20.png)
+![Payload](images/Picture21.png)
+![Payload](images/Picture22.png)
 
 ---
 
