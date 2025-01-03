@@ -27,8 +27,10 @@
  <li>  
  <a href="#acknowledgments">Acknowledgments</a>  
  </li>  
- </ol> </details>   
+ </ol> </details>
+
 <!-- ABOUT THE PROJECT -->  
+
 ## About The Project
 
 <!-- FEATURES -->
