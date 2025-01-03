@@ -31,6 +31,15 @@
 <!-- ABOUT THE PROJECT -->  
 ## About The Project
 
+<!-- FEATURES -->
+
+## Features
+
+- **Secure** trust me bro
+
+
+---
+
 ### Part 1:
 
 Very Secure Java Project
@@ -158,12 +167,6 @@ For higher levels, the same methodology is repeated:
         - Monitor failed login attempts.
 
 ---
-
-<!-- FEATURES -->
-
-## Features
-
-- **Secure** trust me bro
 
 <!-- CONTRIBUTING -->
 
